@@ -1,5 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Install npm https://www.npmjs.com/get-npm
+
+Make the following client side updates: 
+Collect all client side code and move them to the same directory.  
+This directory is unique to each user.  Update line 4 of stripe_hw.js to reflect the path where the client side code is stored. 
+ 
+Spin up server: 
+Spin up the server with the following command prompt:  node stripe_hw.js 
+The server is successfully started when you see this message on the terminal:  Node server listening on port 4242!
+
+Client: 
+Run client side scripts with the following command prompt:  npm start 
+Visit:  http://localhost:4242/  to view website that supports the PaymentIntents integration
+
 ## Available Scripts
 
 In the project directory, you can run:
