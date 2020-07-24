@@ -1,13 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Install npm https://www.npmjs.com/get-npm
+Setup:
+1.  Install npm https://www.npmjs.com/get-npm
+2.  Run the following command on the terminal:  npm install 
 
  
 Spin up server: 
 1. Make changes to stripe_hw.js that are unique to each user.  
   A.   Update line 4 of stripe_hw.js to reflect the path where the client side code is stored. All client side code should be stored in the same directory. This directory is unique to each user.   
   B.   Update line 12 of stripe_hw.js with unique secret key (accessed via Dashboard)
-2.  Spin up the server with the following command prompt:  node stripe_hw.js 
+2.  Spin up the server with the following command prompt:  node src/stripe_hw.js 
 3.  The server is successfully started when you see this message on the terminal:  Node server listening on port 4242!
 
 Client: 
